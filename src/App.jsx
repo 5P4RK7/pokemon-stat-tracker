@@ -3,7 +3,7 @@ import "./App.css";
 import Axios from "axios";
 import TitleSection from "./components/TitleSection";
 import Display from "./components/Display";
-import Autocomplete from "./components/AutoComplete";
+import Autocomplete from "./components/Autocomplete";
 
 function App() {
   const [pokemonName, setPokemonName] = useState("");
