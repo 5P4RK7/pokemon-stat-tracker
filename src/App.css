@@ -14,7 +14,7 @@ body{
 
 .TitleSection {
   width: 100%;
-  height: 120px;
+  height: 5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@ body{
 .Display {
   align-self: center;
   display: flex;
-  width: 1000px;
+  width: 40vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -34,7 +34,7 @@ body{
 }
 
 .autocomplete-wrapper {
-  width: 260px;
+  width: 13.3vw;
   margin: 10px auto 0 auto;
   position: relative;
   display: flex;
@@ -42,7 +42,7 @@ body{
 }
 
 .autocomplete-input {
-  width: 300px;
+  width: 20vw;
   padding: 10px;
   font-size: 25px;
   border: 2px solid rgb(54, 54, 54);
@@ -54,7 +54,7 @@ body{
 
 .autocomplete-list {
   position: absolute;
-  top: 45px;
+  top: 2vw;
   left: 0;
   width: 100%;
   background: white;
@@ -82,17 +82,17 @@ body{
 .pokemon-header {
   display: flex;
   align-items: center; 
-  gap: 15px; 
+  gap: 0.8vw; 
 }
 
 .type-img {
-  width: 40px; 
-  height: 40px;
+  width: 2vw; 
+  height: 2vw;
 }
 
 .pokemon-sprite {
-  width: 250px; 
-  height: 250px;
+  width:12vw; 
+  height: 12vw;
   margin-top: 10px;
 }
 .type-tooltip {
@@ -103,7 +103,7 @@ body{
 .type-tooltip::after {
   content: attr(data-tip);
   position: absolute;
-  top: -35px;        
+  top:-1.4vw;        
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.85);

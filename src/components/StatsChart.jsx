@@ -51,7 +51,7 @@ function StatsChart({ pokemon = {} }) {
       width: "100%",
       maxWidth: "600px",
       height: "30vh",
-      minHeight: "300px",
+      minHeight: "200px",
       margin: "20px auto"
     }}
   >
